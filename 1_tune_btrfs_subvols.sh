@@ -18,7 +18,7 @@ sudo rm -rf "${dir}.old"
 
 done
 
-echoq
+echo
 echo "Готово."
 echo
 
