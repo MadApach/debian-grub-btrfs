@@ -37,9 +37,9 @@
    ```
 2. Запускайте строго по порядку от 1 до 5 с правами суперпользователя:
    ```bash
-   sudo ./1_tune_btrfs_subvols.sh
-   sudo ./2_setup_btrfs_tools.sh
-   sudo ./3_setup_grub-btrfs.sh
-   sudo ./4_setup_grub_watcher.sh
-   sudo ./5_setup_overlayroot.sh
+   ./1_tune_btrfs_subvols.sh
+   ./2_setup_btrfs_tools.sh
+   ./3_setup_grub-btrfs.sh
+   ./4_setup_grub_watcher.sh
+   ./5_setup_overlayroot.sh
    ```
