@@ -8,13 +8,13 @@ for dir in /var/cache /var/tmp; do
 echo
 echo "Обработка $dir"
 
-mv "$dir" "${dir}.old"
+sudo mv "$dir" "${dir}.old"
 
-btrfs subvolume create "$dir"
+sudo btrfs subvolume create "$dir"
 
-cp -a "${dir}.old"/. "$dir"/
+sudo cp -a "${dir}.old"/. "$dir"/
 
-rm -rf "${dir}.old"
+sudo rm -rf "${dir}.old"
 
 done
 
@@ -23,4 +23,4 @@ echo "Готово."
 echo
 
 echo "Проверка:"
-btrfs subvolume list /
+sudo btrfs subvolume list /
