@@ -35,7 +35,7 @@ Each step is numbered and must be executed sequentially.
    ```bash
    chmod +x *.sh
    ```
-2. Run them strictly in order from 1 to 5 with superuser privileges:
+2. Run them strictly in order from 1 to 5:
    ```bash
    ./1_tune_btrfs_subvols.sh
    ./2_setup_btrfs_tools.sh
